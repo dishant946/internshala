@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+
+</head>
+<body>
+  <input type="text" id="cityInput" onchange="fetchCities()">
+<div id="dropdownContainer">
+  <select id="cityDropdown" onchange="displayCityInfo()">
+    <option value="">Select a city...</option>
+  </select>
+</div>
+<div id="cityInfoContainer">
+  <h2>City Information</h2>
+  <p id="cityRank"></p>
+  <p id="city"></p>
+  <p id="cityPopulation2011"></p>
+  <p id="cityPopulation2001"></p>
+  <p id="cityState"></p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
